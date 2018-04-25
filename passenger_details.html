@@ -1,0 +1,122 @@
+<!Doctype html>
+<html  lang = "en">
+<head>
+
+  <title>Cal Air</title>
+
+  <link rel="stylesheet" href="index.css"
+</head>
+
+<nav>
+  <ul class = "navbar">
+    <li><a id="home_button" href="index.html">Home</a></li>
+    <li><a id="login_button" href="login.html">Login</a></li>
+    <li><a id="register_button" href="register.html">Register</a></li>
+    
+
+    <!--
+    <li><a id="register_successful_button" href="register_successful.html"></a></li>
+    <li><a id="passenger_details_button" href="passenger_details.html"></a></li>
+    <li><a id="payment_details_button" href="payment_details.html"></a></li>
+
+  -->
+
+
+
+  </ul>
+</nav>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container_login {
+    padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    width:50%;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.continue_1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9
+    display:block;
+}
+
+.continue_1btn:hover {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+
+</style>
+<body>
+
+<form style="border:1px solid #ccc">
+  <div class="container_login">
+    <h1>Passenger Details</h1>
+
+    <hr>
+    <label for="first_name"><b>First Name</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter First name as on Passport" name="first_name" required><br><br>
+
+    <label for="last_name"><b>Last Name</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Last Name as on Passport" name="last_name" required><br><br>
+
+    <label for="home_address"><b>Home Address</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Home Address" name="home_address" required><br><br>
+
+    <label for="contact_number"><b>Contact Number</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Contact Number" name="contact_number" required><br><br>
+
+    <label for="gender"><b>Gender</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter your Gender" name="gender" required><br><br>
+
+
+    <label for="email"><b>Email ID</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Email" name="email" required><br><br>
+
+
+    <hr>
+
+    <button type="submit" class="continue_1">Continue to Payment Page</button>
+  </div>
+
+
+</form>
+
+</body>
+
+</html>

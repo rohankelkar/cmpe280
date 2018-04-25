@@ -1,0 +1,16 @@
+{
+  "name": "CaliAir",
+  "description": "The true Californian Airline flys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "contributors": "Andrew Wong",
+  "scripts": {
+    "start": "micro -p 4000"
+  },
+  "dependencies": {
+    "micro": "latest",
+    "microrouter": "latest",
+    "mongodb": "latest"
+  }
+}

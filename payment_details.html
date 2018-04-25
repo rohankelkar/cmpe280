@@ -1,0 +1,209 @@
+<!Doctype html>
+<html  lang = "en">
+<head>
+
+  <title>Cal Air</title>
+
+  <link rel="stylesheet" href="index.css"
+</head>
+
+<nav>
+  <ul class = "navbar">
+    <li><a id="home_button" href="index.html">Home</a></li>
+    <li><a id="login_button" href="login.html">Login</a></li>
+    <li><a id="register_button" href="register.html">Register</a></li>
+
+
+    <!--
+    <li><a id="register_successful_button" href="register_successful.html"></a></li>
+    <li><a id="passenger_details_button" href="passenger_details.html"></a></li>
+    <li><a id="payment_details_button" href="payment_details.html"></a></li>
+
+  -->
+
+
+
+  </ul>
+</nav>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container_payment {
+    padding: 16px;
+    margin-left:30px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    width:50%;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.paymentbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    display:block;
+}
+
+.paymentbtn:hover {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Add a blue color to h1 */
+h1{
+  color:blue;
+}
+
+</style>
+<body>
+
+
+<form style="margin:0px; padding:0px;">
+  <div class="container_payment">
+    <h1>Payment Details</h1>
+    <h3>Please enter correct card details</h3>
+    <hr>
+
+    <label for="card_no"><b>Card Number</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Valid Credit/Debit Card" name="card_no" required><br><br>
+
+    <label for="cvc"><b>CVC Number</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter 3 digit CVC number" name="cvc" required><br><br>
+
+    <label for="card_expiry"><b>Card Expiry Date</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="MM/DD/YYYY" name="card_expiry" required><br><br>
+
+    <label for="promo_code"><b>Promo Code</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Promo Code if any" name="promo_code"><br><br>
+
+
+    <hr>
+
+    <button type="submit" class="paymentbtn">Book Tickets</button>
+  </div>
+
+</form>
+
+
+</body>
+
+
+<!--<body>
+  <h1>New User Registration</h1>
+
+  <style>
+ /*h3
+{
+  font-family: Verdana;
+  font-size: 30pt;
+  font-style: normal;
+  font-weight: bold;
+  color:black;
+  text-align: center;
+}*/
+
+
+table{
+  font-family: Verdana;
+  color:black;
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align:left;
+  border-collapse: collapse;
+}
+
+</style>
+<!--<h3>Log in to add entry!</h3>-->
+
+ <!--<form name="login" align="center">
+<table align="center" cellpadding="10">
+
+
+<tr>
+<td>Name</td>
+<td><input type="text" name="name" width="50" height="50" maxlength="100"/>
+
+</td>
+</tr>
+
+
+<tr>
+<td>Email</td>
+<td><input type="email" name="email" width="50" height="50" maxlength="100"/>
+
+</td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password" name="Last_Name" width="50" height="50" maxlength="100"/>
+
+</td>
+</tr>
+
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td colspan="15" align="center">
+<input type="button" onclick="" value="Register"/>
+
+
+
+</td>
+</tr>
+</table>
+
+</form>
+<!-<script language="javascript">
+function check(form)
+{
+  if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd")
+  {
+    window.open('addentry.html')
+  }
+ else
+ {
+   alert("Error Password or Username")
+  }
+}
+</script>-->
+
+
+</html>

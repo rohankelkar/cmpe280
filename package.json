@@ -1,0 +1,14 @@
+{
+  "name": "CaliAir_Website",
+  "description": "The true Californian Airline flys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "contributors": "Andrew Wong",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "latest"
+  }
+}

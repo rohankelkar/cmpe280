@@ -1,0 +1,106 @@
+<!Doctype html>
+<html  lang = "en">
+<head>
+
+  <title>Cal Air</title>
+
+  <link rel="stylesheet" href="index.css"
+</head>
+
+<nav>
+  <ul class = "navbar">
+    <li><a id="home_button" href="index.html">Home</a></li>
+    <li><a id="login_button" href="login.html">Login</a></li>
+    <li><a id="register_button" href="register.html">Register</a></li>
+
+    <!--
+    <li><a id="register_successful_button" href="register_successful.html"></a></li>
+    <li><a id="passenger_details_button" href="passenger_details.html"></a></li>
+    <li><a id="payment_details_button" href="payment_details.html"></a></li>
+
+  -->
+
+
+
+  </ul>
+</nav>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container_login {
+    padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    width:50%;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.loginbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9
+    display:block;
+}
+
+.loginbtn:hover {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+
+</style>
+<body>
+
+<form style="border:1px solid #ccc">
+  <div class="container_login">
+    <h1>User Login</h1>
+    <h3>Please login into your user account</h3>
+    <hr>
+
+    <label for="email"><b>Email ID</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Email" name="email" required><br><br>
+
+    <label for="psw"><b>Password</b></label>
+    &nbsp;&nbsp;&nbsp;<input type="password" placeholder="Enter Password" name="psw" required><br><br>
+    <hr>
+
+    <button type="submit" class="loginbtn">Login</button>
+  </div>
+
+
+</form>
+
+</body>
+
+</html>
