@@ -1,10 +1,10 @@
 {
   "name": "CaliAir_Website",
-  "description": "The true Californian Airline flys",
+  "description": "The true Californian Airline flies",
   "version": "1.0.0",
   "main": "index.html",
   "license": "MIT",
-  "contributors": "Andrew Wong",
+  "contributors": "Andrew Wong","Rohan Kelkar","Venkateswara Raju Datla",
   "scripts": {
     "start": "http-server"
   },
